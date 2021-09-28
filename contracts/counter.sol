@@ -1,17 +1,15 @@
-pragma solidity ^0.4.11;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.0;
 
 contract Counter {
-  unit counter;
-
-  function Counter() {
-    count = 1;
-  }
-
-  function increment() {
-    count = count + 1;
-  }
-
-  function get() constant returns (uint) {
-    return  count;
-  }
+    int private count = 0;
+    function incrementCounter() public {
+        count += 1;
+    }
+    function decrementCounter() public {
+        count -= 1;
+    }
+    function getCount() public view returns (int) {
+        return count;
+    }
 }
