@@ -42,3 +42,12 @@
 13:53:29.118354 db@open done T·55.146784ms
 13:53:29.119182 db@close closing
 13:53:29.119354 db@close done T·170.838µs
+=============== Sep 28, 2021 (+07) ===============
+20:58:26.726676 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:58:26.726780 version@stat F·[] S·0B[] Sc·[]
+20:58:26.726799 db@open opening
+20:58:26.732443 version@stat F·[] S·0B[] Sc·[]
+20:58:26.753247 db@janitor F·2 G·0
+20:58:26.753283 db@open done T·26.464244ms
+20:58:55.370375 db@close closing
+20:58:55.370423 db@close done T·48.326µs
